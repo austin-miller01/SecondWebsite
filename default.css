@@ -1,0 +1,41 @@
+:root{
+	--mainColor: #000;
+	--textColor: #fff;
+}
+
+
+h1, h2, h3, h4, h5, h6, strong{
+	color:  var(--textColor);
+	font-weight: 500;
+}
+
+p, li, span, label, input, textarea, a{
+	color:  var(--textColor);
+	font-size: 20px;
+
+}
+
+h1{font-size: 56px;}
+
+.s1{
+	background-color:var(--mainColor) ;
+	border-color: 15px  solid var(--textColor);
+	overflow: auto;
+
+}
+.main-container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.greeting-wrapper{
+	display: grid;
+	text-align: center;
+	align-content: center;
+	min-height: 10em;
+}
+.p-wrapper{
+	display: grid;
+	text-align: center;
+	align-content: center;
+	min-height: 10em;
+}
