@@ -1,41 +1,95 @@
-:root{
-	--mainColor: #000;
-	--textColor: #fff;
+
+
+html, body{
+	padding:  0,;
+	margin: 0;
 }
 
+body *{
+	transition: 0.3s;
+}
 
 h1, h2, h3, h4, h5, h6, strong{
-	color:  var(--textColor);
+	color:  white;
 	font-weight: 500;
 }
 
 p, li, span, label, input, textarea, a{
-	color:  var(--textColor);
-	font-size: 20px;
+	color:  white;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+ul{
+	list-style: none;
 
 }
 
 h1{font-size: 56px;}
+h2{font-size: 36px;}
+h3{font-size: 28px;}
+h4{font-size: 24px;}
+h5{font-size: 20px;}
+h6{font-size: 16px;}
 
-.s1{
-	background-color:var(--mainColor) ;
-	border-color: 15px  solid var(--textColor);
-	overflow: auto;
 
-}
 .main-container{
-	width: 1200px;
+	width: auto;
 	margin: 0 auto;
+	background-color: black;
 }
-.greeting-wrapper{
+.navigation-wrapper{
+
 	display: grid;
-	text-align: center;
-	align-content: center;
-	min-height: 10em;
+
+	text-align: right;
+	background-color: black;
+
 }
-.p-wrapper{
-	display: grid;
-	text-align: center;
-	align-content: center;
-	min-height: 10em;
+
+
+.navigation-wrapper ul{
+	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: black;
 }
+
+.navigation-wrapper li{
+
+	float: left;
+}
+
+.navigation-wrapper h1{
+	font-family: 'Marck Script', cursive;
+	display: block;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	color: #ae3450;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 39px;
+}
+.navigation-wrapper li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 18px;
+	text-decoration: none;
+}
+
+.navigation-wrapper li a:hover{
+	background-color: gray ;
+}
+
+.active{
+	background-color: #ae3450 ;
+}
+
+
